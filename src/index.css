@@ -1,1 +1,33 @@
 
+li a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #acacac;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    transition: all 800ms;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+li a:hover{
+    background-color: rgb(216, 239, 249);
+    color: rgb(17, 11, 11);
+    border-radius: 0;
+}
+li{
+    padding: 0 1rem;
+}
+
+/* .container h2{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} */
+
+/* .row{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} */
+
+.card:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
