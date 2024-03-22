@@ -36,8 +36,8 @@ export class News extends Component {
     }
 
     async componentDidMount(){
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d12c17c2e312476883da6185d384fc1f
-        &page=1&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d12c17c2e312476883da6185d384fc1f&page=1
+        &pageSize=${this.props.pageSize}`;
         this.setState({loading:true});
         let data = await fetch(url);
         let parsedData = await data.json()
@@ -104,23 +104,21 @@ export class News extends Component {
                     <h1 className='text-center' style={{margin: '40px 0px'}}>NewsHub - Top  {this.capitalize(this.props.category)} Headlines </h1>
                      {/* {this.state.loading && <Spinner/>} */}
                     <InfiniteScroll
-                        dataLength={this.state.articles.length}
+                        dataLength={this.state.articles === undefined ? 0 : this.state.articles.length}
                         next={this.fetchMoreData}
-                        hasMore={this.state.articles.length !== this.state.totalResults}
+                        hasMore={this.state.articles === undefined ? false : this.state.articles.length !== this.state.totalResults}
                         loader={<Spinner/>}
                     >
                     <div className="container">
                           
                     <div className="row">
-                        {this.state.articles.map((element)=>{
+                        {(this.state.articles === undefined ? [] :this.state.articles).map((element)=>{
                             return <div className="col-md-4" key={element.url}>
                             <NewsItem  title={element.title?element.title:""} description={element.description?element.description:""} imageUrl={element.urlToImage} newsUrl={element.url}
                              author={element.author} date={element.publishedAt}/> 
                             </div>
-
                         })}
-                        
-                    </div> 
+                    </div>
                     </div>
                     </InfiniteScroll>
                     
