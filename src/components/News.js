@@ -101,7 +101,7 @@ export class News extends Component {
         return (
                <>
                
-                    <h1 className='text-center' style={{margin: '40px 0px'}}>NewsHub - Top  {this.capitalize(this.props.category)} Headlines </h1>
+                    <h1 className='text-center' style={{margin: '40px 0px'}}>NewsHub - Top  {this.capitalize(this.props.category)} Headlines 📰 </h1>
                      {/* {this.state.loading && <Spinner/>} */}
                     <InfiniteScroll
                         dataLength={this.state.articles === undefined ? 0 : this.state.articles.length}
