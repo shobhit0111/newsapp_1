@@ -1,6 +1,14 @@
 <h1>NewsHub-Top Headlines
 
 <h2># News Categories:</h2>
+<p>Home</p>
+<p>Busines News</p>
+<p>Sports News</p>
+<p>Science News</p>
+<p>General News</p>
+<p>Entertainment News</p>
+<p>Health News</p>
+<p>Technology News</p>
 
 
 
