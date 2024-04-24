@@ -12,6 +12,13 @@
 <h4>Health News</h4>
 <h4>Technology News</h4>
 
+<h2>Tech-Stacks</h2>
+<h4>React.js</h4>
+<h4>HTML5</h4>
+<h4>CSS3</h4>
+<h4>JavaScript</h4>
+<h4>Bootstrap</h4>
+
 
 
 
