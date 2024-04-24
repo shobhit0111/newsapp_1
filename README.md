@@ -1,5 +1,6 @@
 <h1>NewsHub-Top Headlines
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/6b/2c/3e/6b2c3ee0-1536-a684-e4ea-9d8a79d9787e/AppIcon-1x_U007emarketing-85-220-0-6.png/1200x630wa.png" alt="News" height="400px" width="450px">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/6b/2c/3e/6b2c3ee0-1536-a684-e4ea-9d8a79d9787e/AppIcon-1x_U007emarketing-85-220-0-6.png/1200x630wa.png" 
+  alt="News">
 
 <h2># News Categories:</h2>
 <h4>Home</h4>
