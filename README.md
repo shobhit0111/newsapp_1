@@ -1,5 +1,7 @@
 <h1>NewsHub-Top Headlines
 
+<h2># News Categories:</h2>
+
 
 
 
