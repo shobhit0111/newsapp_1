@@ -1,4 +1,4 @@
-<h1>NewsHub-Top Headlines<\h1> 
+<h1>NewsHub-Top Headlines
 
 
 
